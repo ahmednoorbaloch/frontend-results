@@ -1,0 +1,109 @@
+*{
+margin: 2px;
+padding: 0px;
+}
+
+table{
+   
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1kLSTrv-MqG2GHMTETCbVqn40_z278s2tyg&usqp=CAU);
+    
+    /* background-position: 0%; */
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+th{
+    font-weight: 1000;
+    font-size: 20px;
+}
+
+td{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    font-style: inherit ;
+    font-weight: 1000;
+    padding: 4px;
+
+ 
+}
+#detail th{
+    /* color: white; */
+    background-color: rgb(28, 150, 28);
+    color: aliceblue;
+}
+
+#detail th:hover{
+    background-color: aqua;
+    color: black;
+    transition: 2.1s;
+}
+.logo h1{
+    
+    text-align: center;
+    font-family:  Verdana, Geneva, Tahoma, sans-serif;
+    font-style: initial;
+    margin: 1px;
+    color: rgb(14, 10, 10);
+}
+
+.logo h1:hover{
+    /* color: antiquewhite; */
+    font-style: italic;
+    transition: 2.1s;
+    cursor: col-resize;
+
+
+}
+
+.frist{
+    /* color: white ; */
+    background-color: rgb(133, 128, 128);
+
+}
+.frist:hover{
+    background-color: blue;
+    color: wheat;
+    transition: 2.1s;
+    font-style: italic;
+
+}
+td{
+    background-color: rgb(133, 128, 128);
+    color: antiquewhite;
+}
+
+td:hover{
+    background-color: black;
+    color: aliceblue;
+    transition: 2.1s;
+}
+
+.good{
+    background-color: rgb(133, 128, 128);
+}
+
+.good:hover{
+    background-color: rgba(255, 255, 0, 0.716);
+    transition: 2.1s;
+    color: blue;
+    font-style: italic;
+}
+
+.green{
+    background-color: rgb(16, 182, 16);
+}
+
+           
+.footer{
+       background-color: rgb(93, 133, 33);
+       font-style: initial;
+}
+
+.footer:hover{
+    color: black;
+    background-color: rgb(140, 138, 138);
+    transition: 2.1s;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
